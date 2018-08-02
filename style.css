@@ -12,15 +12,12 @@ main{
 article img{
   width: 100%;
   border-radius: 300px;
-}
-article img{
-  text-align: center;
+  margin:auto;
 }
 
 .glyphicon{
   font-size: 30px;
   color: #fff;
-  z-index: 1;
 }
 
 .thumbnail:hover{
