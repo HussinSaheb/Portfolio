@@ -1,13 +1,7 @@
 body{
   background-color: lightgrey;
 }
-
-nav{
-  background-color: red;
-}
-.nav-tab:active{
-  transition-delay: 1s:
-}
-.nav-tab:hover{
-  background-color: red:
+.thumbnail img{
+  width:175px;
+  height: 90px;
 }
