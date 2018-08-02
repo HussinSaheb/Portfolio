@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="mydropdown">
           <ul class="nav navbar-nav nav-tabs">
             <li><a href="#aboutme">About me</a></li>
-            <li><a class="active" href="#portfolio">Portfolio</a></li>
+            <li><a class="active" href="#project">Portfolio</a></li>
             <li><a href="#technical">Technical skills</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -29,26 +29,35 @@
       </div>  <!-- end of container-->
     </nav>
     <main class="<container">
-      <div class="row">
-        <article class="col-md-12 hidden-xs hidden-sm">
-          <img src="images/background.jpg" alt="">
-        </article>
-        <h2 id="aboutme">About me</h2>
-        <article class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, quaerat, quos. Eaque nemo debitis dolore ut et laboriosam recusandae nobis eius placeat tenetur unde aspernatur, accusamus enim dolor quibusdam molestias.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt magni soluta culpa blanditiis excepturi labore minus aut eaque placeat hic dolorem cum eveniet illum ex eos odit, quisquam nobis inventore.</p>
-        </article>
-        <article class="col-xs-12  col-sm-6 col-md-6 col-lg-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, quaerat, quos. Eaque nemo debitis dolore ut et laboriosam recusandae nobis eius placeat tenetur unde aspernatur, accusamus enim dolor quibusdam molestias.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ullam a eos facere eligendi placeat. Qui at porro corporis dolores voluptates! Repudiandae debitis officia id unde repellat possimus, incidunt porro.</p>
-        </article>
-          <a  href="#top">Back to top <span class="glyphicon glyphicon-chevron-up"></span></a>
-      </div>
-    </main> <!--end of container-->
+      <section class="container">
+        <div class="row">
+          <article class="col-md-12 hidden-xs hidden-sm">
+            <img src="images/background.jpg" alt="image not supported">
+          </article>
+          <article class="col-xs-6 col-md-3 visible-xs visible-sm ">
+            <img src="images/portrait.jpg" alt="image not supported">
+          </article>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2 id="aboutme">About me</h2>
+          </div>
+          <article class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, quaerat, quos. Eaque nemo debitis dolore ut et laboriosam recusandae nobis eius placeat tenetur unde aspernatur, accusamus enim dolor quibusdam molestias.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt magni soluta culpa blanditiis excepturi labore minus aut eaque placeat hic dolorem cum eveniet illum ex eos odit, quisquam nobis inventore.</p>
+          </article>
+          <article class="col-xs-12  col-sm-6 col-md-6 col-lg-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, quaerat, quos. Eaque nemo debitis dolore ut et laboriosam recusandae nobis eius placeat tenetur unde aspernatur, accusamus enim dolor quibusdam molestias.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ullam a eos facere eligendi placeat. Qui at porro corporis dolores voluptates! Repudiandae debitis officia id unde repellat possimus, incidunt porro.</p>
+          </article>
+        </div>
+        <a class="col-xs-offset-6 visible-xs" href="#top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+
+    </section> <!--end of container-->
     <section class="container" id="portfolio">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <h2>Portfolio</h2>
+          <h2 id="project">Projects</h2>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sint beatae, fugit a cum distinctio. In dolorem, voluptatem sequi consequuntur! Dignissimos eius sit voluptatem architecto maiores natus fugit dolore assumenda.</p>
         </div>
       </div> <!--end of row -->
@@ -116,16 +125,19 @@
           </a>
         </div>
       </div> <!--end of row -->
+      <a class="col-xs-offset-6 visible-xs" href="#top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     </section>
     <section class="container" id="technical">
       <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2 id="technical">Technical skills</h2>
+        </div>
         <div class="col-xs-12">
-          <h2>Technical</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sint beatae, fugit a cum distinctio. In dolorem, voluptatem sequi consequuntur! Dignissimos eius sit voluptatem architecto maiores natus fugit dolore assumenda.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis hic deserunt magnam eveniet numquam voluptate, doloribus ad quia accusantium cumque vitae necessitatibus laborum, similique officiis recusandae debitis illo veritatis, accusamus!</p>
         </div>
       </div>
-      <a href="#top">Back to top <span class="glyphicon glyphicon-chevron-up"></span></a>
+      <a class="col-xs-offset-6 visible-xs" href="#top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     </section>
     <section class="container" id="contact">
       <div class="row">
@@ -137,5 +149,6 @@
         </div>
       </div>
     </section>
+  </main>
   </body>
 </html>

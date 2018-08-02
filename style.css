@@ -1,8 +1,9 @@
 body{
   background-color: #2A2A2A;
   color: #FFF;
+  font-size: 14px;
 }
-h1, h2,h3,{
+main h1,h2,h3{
   text-align: center;
 }
 main{
@@ -12,9 +13,14 @@ article img{
   width: 100%;
   border-radius: 300px;
 }
+article img{
+  text-align: center;
+}
 
 .glyphicon{
   font-size: 30px;
+  color: #fff;
+  z-index: 1;
 }
 
 .thumbnail:hover{
@@ -24,8 +30,14 @@ article img{
 .thumbnail:hover .caption{
   color:#fff;
 }
-
 a:hover{
   text-decoration: none;
   color:#2A2A2A;
+}
+a{
+color:#2A2A2A;
+}
+i{
+  font-size: 40px;
+  color: #fff;
 }
