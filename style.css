@@ -1,10 +1,31 @@
 body{
-  background-color: lightgrey;
+  background-color: #2A2A2A;
+  color: #FFF;
 }
-.thumbnail img{
-  width:175px;
-  height: 90px;
+h1, h2,h3,{
+  text-align: center;
+}
+main{
+  margin-top: 60px;
 }
 article img{
   width: 100%;
+  border-radius: 300px;
+}
+
+.glyphicon{
+  font-size: 30px;
+}
+
+.thumbnail:hover{
+  background-color: #2A2A2A;
+  color:#fff;
+}
+.thumbnail:hover .caption{
+  color:#fff;
+}
+
+a:hover{
+  text-decoration: none;
+  color:#2A2A2A;
 }
