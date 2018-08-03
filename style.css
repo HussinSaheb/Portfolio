@@ -11,8 +11,9 @@ main{
 }
 article img{
   width: 100%;
-  border-radius: 300px;
-  margin:auto;
+}
+article img[src="images/portrait.jpg"]{
+  border-radius: 40%;
 }
 
 .glyphicon{

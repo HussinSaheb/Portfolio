@@ -15,3 +15,11 @@ Wireframe
     * Glyphs
     * GitHub pages
     * Backgrounds
+
+
+
+## Wireframe
+### Mobile verion
+![Mobile](images/Mobile.png)
+### Mobile verion
+![Desktop](images/Mobile.png)
