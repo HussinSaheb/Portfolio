@@ -16,7 +16,12 @@ article img{
 article img[src="images/portrait.jpg"]{
   border-radius: 40%;
 }
-
+.navbar {
+  border-bottom: 1px solid white;
+}
+.nav-tabs{
+  border: 0px;
+}
 .glyphicon{
   font-size: 30px;
   color: #fff;
