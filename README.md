@@ -46,7 +46,7 @@ Below is an initial design of the finished portfolio
 
 ### Mobile Version
 ![Mobile](images/Mobile.png)
-### Mobile version
+### Desktop version
 ![Desktop](images/Desktop.png)
 
 
