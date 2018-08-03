@@ -23,9 +23,9 @@
   - [x] Nav bar
   - [x] Google Fonts
   - [x] Glyphs - Font awesome
-  - [x] Github Pages
   - [x] Backgrounds
   - [ ] README
+  - [ ] Github Pages
 
 
 
