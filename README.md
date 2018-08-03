@@ -22,4 +22,4 @@
 ### Mobile verion
 ![Mobile](images/Mobile.png)
 ### Mobile verion
-![Desktop](images/Mobile.png)
+![Desktop](images/Desktop.png)
