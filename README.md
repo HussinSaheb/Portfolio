@@ -16,6 +16,16 @@
     * GitHub pages
     * Backgrounds
 
+### TODO
+  - [x] Bootstrap
+  - [x] Mobile First
+  - [x] Nav bar
+  - [x] Google Fonts
+  - [x] Glyphs - Font awesome
+  - [x] Github Pages
+  - [x] Backgrounds
+  - [ ] README
+
 
 
 ## Wireframe
