@@ -4,7 +4,7 @@ body{
   font-size: 12px;
   font-family: 'Montserrat', 'Open Sans','Roboto','Trirong', serif;
 }
-main h1,h2,h3{
+h1,h2,h3{
   text-align: center;
 }
 main{
@@ -39,4 +39,8 @@ color:#2A2A2A;
 i{
   font-size: 2.3em;
   color: #fff;
+}
+
+.progress-bar{
+  background-color: green;
 }
