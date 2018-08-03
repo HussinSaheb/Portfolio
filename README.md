@@ -17,6 +17,7 @@
     * Backgrounds
 
 ### TODO
+  - [x] Wireframe
   - [x] Bootstrap
   - [x] Mobile First
   - [x] Nav bar
@@ -29,7 +30,8 @@
 
 
 ## Wireframe
-### Mobile verion
+
+### Mobile Version
 ![Mobile](images/Mobile.png)
-### Mobile verion
+### Mobile version
 ![Desktop](images/Desktop.png)
