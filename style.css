@@ -1,8 +1,8 @@
 body{
   background-color: #2A2A2A;
   color: #FFF;
-  font-size: 14px;
-  font-family: 'Rokkitt', serif;
+  font-size: 12px;
+  font-family: 'Montserrat', 'Open Sans','Roboto','Trirong', serif;
 }
 main h1,h2,h3{
   text-align: center;
@@ -37,6 +37,6 @@ a{
 color:#2A2A2A;
 }
 i{
-  font-size: 40px;
+  font-size: 2.3em;
   color: #fff;
 }
