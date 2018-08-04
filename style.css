@@ -72,7 +72,6 @@ article img{
 }
 article img[src="images/portrait.jpg"]{
   border-radius: 40%;
-  animation: 1s ease 0s 1 rotateImage;
 }
 .glyphicon{
   font-size: 30px;
