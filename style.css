@@ -49,3 +49,24 @@ i{
 .progress-bar{
   background-color: green;
 }
+
+#aboutme{
+  background-image: url();
+  background-repeat:no-repeat;
+
+}
+#project{
+  background-image: url();
+  background-repeat:no-repeat;
+
+}
+#technical{
+  background-image: url();
+  background-repeat:no-repeat;
+
+}
+#contact{
+  background-image: url();
+  background-repeat:no-repeat;
+
+}
