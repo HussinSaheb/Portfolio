@@ -29,9 +29,11 @@ This project does not currently use JavaScript or JQuery except in the navbar.
   - [x] Nav bar
   - [x] Google Fonts
   - [x] Glyphs - Font awesome
-  - [x] Backgrounds
-  - [ ] README
-  - [ ] Github Pages
+  - [ ] Backgrounds
+  - [x] README
+  - [x] Github Pages
+  - [ ] Relevant content
+  - [ ] Add project file to Github, if any.
 
 ### Future changes
   - [ ] Add content to the sections
