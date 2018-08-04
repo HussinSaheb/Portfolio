@@ -1,9 +1,17 @@
 body{
-  background-color: #2A2A2A;
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #FFF;
   font-size: 12px;
   font-family: 'Montserrat', 'Open Sans','Roboto','Trirong', serif;
 
+}
+ main .container{
+  box-shadow: 3px 2px 0.7;
+  border-radius: 2px;
+  z-index: 1;
 }
 h1,h2,h3{
   text-align: center;
@@ -19,6 +27,7 @@ article img[src="images/portrait.jpg"]{
 }
 .navbar {
   border-bottom: 1px solid white;
+  opacity: 0.7;
 }
 .nav-tabs{
   border: 0px;
@@ -26,7 +35,9 @@ article img[src="images/portrait.jpg"]{
 .glyphicon{
   font-size: 30px;
   color: #fff;
+  text-align: center;
 }
+
 
 .thumbnail:hover{
   background-color: #2A2A2A;
@@ -49,24 +60,12 @@ i{
 .progress-bar{
   background-color: green;
 }
-
-#aboutme{
-  background-image: url();
-  background-repeat:no-repeat;
-
+footer{
+  background-color: grey;
+  opacity: 0.7;
 }
-#project{
-  background-image: url();
-  background-repeat:no-repeat;
-
-}
-#technical{
-  background-image: url();
-  background-repeat:no-repeat;
-
-}
-#contact{
-  background-image: url();
-  background-repeat:no-repeat;
-
+footer .row{
+  height: 100px;
+  padding-top: 30px;
+  opacity: 1;
 }
