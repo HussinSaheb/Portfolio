@@ -29,7 +29,7 @@ This project does not currently use JavaScript or JQuery except in the navbar.
   - [x] Nav bar
   - [x] Google Fonts
   - [x] Glyphs - Font awesome
-  - [ ] Backgrounds
+  - [x] Backgrounds
   - [x] README
   - [x] Github Pages
   - [ ] Relevant content
@@ -37,8 +37,7 @@ This project does not currently use JavaScript or JQuery except in the navbar.
 
 ### Future changes
   - [ ] Add content to the sections
-  - [ ] Add Javascript for better design
-  - [ ] use Css Animation
+  - [x] use Css Animation
 
 
 
