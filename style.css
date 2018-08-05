@@ -23,12 +23,36 @@ to 0 the original position */
 }
 /*navigation a tags dropping from top
 page into correct position  */
-@keyframes dropIntoPlace {
-  0%{
-  transform: translateY(-100%);
+@-webkit-keyframes dropIntoPlace {
+  from {
+    transform: translateY(-100%)
+    }
+  to {
+      transform: translateY(0%)
   }
-  100%{
-    transform: translateY(0%);
+}
+@-o-keyframes dropIntoPlace {
+  from {
+    transform: translateY(-100%)
+    }
+  to {
+      transform: translateY(0%)
+  }
+}
+@-moz-keyframes dropIntoPlace {
+  from {
+    transform: translateY(-100%)
+    }
+  to {
+      transform: translateY(0%)
+  }
+}
+@keyframes dropIntoPlace {
+  from {
+    transform: translateY(-100%)
+    }
+  to {
+      transform: translateY(0%)
   }
 }
 
