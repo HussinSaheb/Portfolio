@@ -32,11 +32,11 @@ This project does not currently use JavaScript or JQuery except in the navbar.
   - [x] Backgrounds
   - [x] README
   - [x] Github Pages
-  - [ ] Relevant content
-  - [ ] Add project file to Github, if any.
+  - [x] Relevant content
+  - [x] Add project file to Github, if any.
 
 ### Future changes
-  - [ ] Add content to the sections
+  - [x] Add content to the sections
   - [x] use Css Animation
 
 
