@@ -1,4 +1,5 @@
 
+
 /*animation keyframes
 going from positionX utside the screen
 to 0 the original position */
@@ -77,8 +78,23 @@ is being used to portray staggered effect
   100% {opacity: 1; }
 }
 
-
-
+/*added animation for progress bars */
+@-webkit-keyframes progress {
+  from {width:0%  }
+  to {width:100%  }
+}
+@-o-keyframes progress {
+  from {width:0%;  }
+  to {width: 100% }
+}
+@-moz-keyframes progress {
+  from {width:0%;  }
+  to {width: 100% }
+}
+@keyframes progress {
+  from {width:0%;  }
+  to {width: 100% }
+}
 
 body{
   background-image: url('images/background.png');
@@ -161,6 +177,7 @@ i:hover{
 .progress{
   opacity: 0.7;
   background-color: #f0ecdb;
+  animation: 7s ease-in-out 0s 1 progress;
 }
 .progress:hover{
   opacity:1;
@@ -178,7 +195,7 @@ footer .row{
   padding-top: 30px;
   opacity: 1;
 }
-/*Staggered fade for each container  */
+/*Staggered fade-in for each container  */
 #aboutme{
   animation: 3s ease-in-out 0s 1 fade-in;
 }
@@ -189,5 +206,5 @@ footer .row{
   animation: 5s ease-in-out 0s 1 fade-in;
 }
 #contact{
-  animation: 5s ease-in-out 0s 1 fade-in;
+  animation: 6s ease-in-out 0s 1 fade-in;
 }
