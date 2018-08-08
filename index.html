@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="preload" href="preload.css">
+    <!--link to font awesome css  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- link to bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto|Trirong" rel="stylesheet">
+    <!-- Link to the jquery-->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Hussin Saheb</title>
+  </head>
+  <!-- id to go back to top on mobile version-->
+  <body id="top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand">H.S</a>
+          <button class="navbar-btn navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+            Menu
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="mydropdown">
+          <ul class="nav navbar-nav nav-tabs">
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#project">Portfolio</a></li>
+            <li><a href="#technical">Technical skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>  <!-- end of container-->
+    </nav>
+    <main class="<container">
+      <!--About me section-->
+      <section class="container" id="aboutme">
+        <div class="row">
+          <div class="row">
+            <article class="col-xs-6 col-md-3 visible-xs visible-sm col-xs-offset-3">
+              <img src="images/portrait.jpg" alt="image not supported">
+            </article>
+          </div><!-- end of row-->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2>About me</h2>
+          </div>
+          <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <p>I'm Hussin Saheb a trainee tehcinical consultant at <a href="http://www.spartaglobal.com" target="_blank">SpartaGlobal</a>
+            where I'm current training to become specialised in SDET/DevOps. I graduated from <span class="letters"><a href="http://www.mdx.ac.uk" target="_blank">Middlesex University</a></span>, Science &amp; Technology school in July 2017 with First Class Honours in (BSc) Computer Science</p>
+            <p>Before I was facisnated by coding I was once upon a time a PC Gamer. Now, I enjoy learning about new frameworks, languages and Technologies such as <a href="https://www.youtube.com/watch?v=CvkhXR3CxG8" target="_blank">Tangible User Interface</a> to increase my skillset and knowledge. I wish to one day be able tow rite software for a Quantum Computer.</p>
+          </article>
+          <article class="col-xs-6 col-md-6 visible-md visible-lg">
+            <img src="images/portrait.jpg" alt="image not supported">
+          </article>
+        </div><!-- end of row-->
+      </section> <!--end of container-->
+      <!-- 2 rows of thumbnails, can be added to -->
+      <section class="container" id="project">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2 id="project">Projects</h2>
+          </div>
+        </div> <!--end of row -->
+        <div class="row ">
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <a href="">
+              <div class="thumbnail">
+                <h3>Smart Pill Dispenser</h3>
+                <div class="caption">
+                  <p>This project involved using Arduino micro controller to prototype a smart pill dispenser and its functionality. The Smart Pill dispenser was aimed at the elderly with disabilities that require reminders to take their medication. Project was completed using the Programming language Java along side the Arduino IDE and several kits to implement better functionality for the Arduino. MIT App Inventor was used to create a prototype android app for bluetooth communication with the smart pill dispenser</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <a href="">
+              <div class="thumbnail">
+                <h3>Python - Sentiments analysis</h3>
+                <div class="caption">
+                  <p>I worked on a python script, that uses the twitter api to retrieve tweets about a certain search term, then plugged the data to  IndicoIO API for sentiment analysis. IndicoIO returns with five emotions for each tweet.i then conveyed the emotions of the tweet by displaying the results in a graph of emoticons representative of the emotion. The bigger the emoticon icon the higher the emotions were from each tweet.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <a href="">
+              <div class="thumbnail">
+                <h3>Raspberry pi/Python script</h3>
+                <div class="caption">
+                  <p>Athan is a call to prayer that is projected from mosques back in the muslim countries. This project was something I worked on to simulate the environment back home for my family. I used a python script run on Raspberry pi, that scrapes the times of prayer every night at 00:10 using cron jobs. The scraped data is processed and used as trigger for the Athan soundfile.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>  <!--end of row -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 visible-md visible-lg">
+            <a href="https://github.com/HussinSaheb/TUI">
+              <div class="thumbnail">
+                <h3>TUI</h3>
+                <div class="caption">
+                  <p>I and two other colleagues worked on a prototype for a car modification game. The game used physical representation of car parts that the game allowed to be modified. depending on how each item was rotated a different version of the part was added to the car in-game. I was responsible for coding the functionality of the game. The game was programmed using Processing (software sketchbook using Java) with the Reactivision framework for computer vision, to track the physical objects.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 visible-md visible-lg">
+            <a href="">
+              <div class="thumbnail">
+                <h3>Passera</h3>
+                <div class="caption">
+                  <p>Passera is a project I worked on to make a system similar to UBER; instead of hailing taxi's a learner driver would be put in contact with a driving instructor. HTML, CSS , JavaScript, Node.js, MySQL and Apache were used in this project. This was mainly a prototype to test if the idea could be made into fruition. The real project is to make it into an smart phone app for convenience of the target audience. This would also serve as an opportunity for Hussin to gain more experience in mobile app development.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 visible-md visible-lg">
+            <a href="https://github.com/HussinSaheb/portfolio" target="
+            ">
+              <div class="thumbnail">
+                <h3>Portfolio</h3>
+                <div class="caption">
+                  <p>This website was made to serve as a portfolio for myself. HTML5,CSS3 and Css freamework:Bootstrap was used to complete it.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div> <!--end of row -->
+        <a class="col-xs-12 col-sm-12 col-xs-offset-5 col-sm-offset-6 visible-xs visible-sm" href="index.html"><span class="glyphicon glyphicon-chevron-up"></span></a>
+      </section>
+      <section class="container" id="technical">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2 id="technical">Technical skills</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <h5>HTML</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <h5>CSS</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <h5>JavaScript</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <h5>Java</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+          </div>
+        </div><!-- end of row-->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <h5>Erlang</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 67%" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">67%</div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <h5>Racket</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <h5>Css Framework: Bootstrap</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <h5>Arduino</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <h5>Raspberry Pi</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <h5>Processing</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <h5>Python</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+            </div>
+          </div>
+        </div><!-- end of row-->
+        <a class="grow col-xs-12 col-sm-12 col-xs-offset-5 col-sm-offset-6 visible-xs visible-sm" href="index.html"><span class="glyphicon glyphicon-chevron-up"></span></a>
+      </section>
+      <footer class="container-fluid" id="contact">
+        <div class="row">
+          <div class="col-xs-3 col-xs-offset-4 col-md-3 col-md-offset-5">
+            <span><a href="https://github.com/HussinSaheb"><i class="fab fa-github"></i></a></span>
+            <span><a href="https://www.linkedin.com/in/hussinsaheb/"><i class="fab fa-linkedin"></i></a></span>
+            <span><a href="https://www.instagram.com/whosin/"><i class="fab fa-instagram"></i></a></span>
+            <span><a href="mailto:HSaheb@spartaglobal.com"><i class="fas fa-at"></i></a></span>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
